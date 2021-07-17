@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python-hello-container
-        image: sukhkar/python_docker_container:latest
+        image: sukhkar/python_kubernetes_image:latest
         ports:
         - containerPort: 8085
 
